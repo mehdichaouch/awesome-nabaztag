@@ -34,18 +34,29 @@ Genèse : Nabaztag est né en 2005 et renaît en 2018 avec le projet TagTagTag i
 
 * [Installation De La Carte TagTagTag Pour Nabaztag:tag : 23 étapes - Instructables](https://www.instructables.com/member/tagtagtag/)
 * [Le retour du Nabaztag tag: montage](https://www.youtube.com/watch?v=UiteckZKFmU)
+* [Partie wiki de awesome-nabaztag](https://github.com/mehdichaouch/awesome-nabaztag/wiki)
 * [Comment "déjaunir" votre lapin](https://www.tagtagtag.fr/forum/showthread.php?tid=25)
 * [Blanchir son lapin jauni](https://www.tagtagtag.fr/forum/showthread.php?tid=92)
 * [Tester le GPIO](https://www.tagtagtag.fr/forum/showthread.php?tid=196&pid=1533#pid1533)
 * [Comment créer un nouveau service - pynab](https://github.com/nabaztag2018/pynab/wiki/How-to-create-a-new-service)
 * [Réduire la luminosité des LEDs](https://www.tagtagtag.fr/forum/showthread.php?tid=106&pid=694#pid694)
+* [Éteindre la Led verte du Raspberry Pi Zero](https://www.tagtagtag.fr/forum/showthread.php?tid=259&pid=1650#pid1650)
+* [Se connecter en SSH à TagTagTag](https://www.tagtagtag.fr/files/tagtagtag_various_advanced_things.pdf)
+* [Modifier les valeurs de volume du son](https://www.tagtagtag.fr/files/tagtagtag_various_advanced_things.pdf)
+* [Programmer un redémarrage automatique sur le Raspberry-Pi](https://www.windtopik.fr/redemarrage-automatique-raspberry-pi/)
+* [Désactiver le Bluetooth sur un Raspberry Pi](https://scribles.net/disabling-bluetooth-on-raspberry-pi/) - Le bluethooth n'est pas utilisé, désactivons-le.
+* [Améliorer le démarrage du Raspberry Pi Zero](https://dmesko.medium.com/long-pi-zero-boot-time-on-prusa-mk3-a2ee832a469d) - Tuto pour une imprimante 3D, mais qui fonctionne en grande partie pour le Nabaztag.
+* [Langage lumineux de la météo](https://www.tagtagtag.fr/weather.html)
 
 ## Outils
 
+* [PyNab](https://github.com/nabaztag2018/pynab/)
 * [Interface API Typescript pour la carte PCB Nabaztag en PyNab](https://github.com/datagutt/pynab.js)
-* [Pynab_cli](https://github.com/f-laurens/pynab_cli)
+* [Pynab_cli](https://github.com/f-laurens/pynab_cli) - Une collection de petits outils en ligne de commande pour les lapins Nabaztag fonctionnant sous Pynab et qui ont été relancés grâce à la carte Tag:tag:tag alimentée par le Raspberry Pi Zero
 * [NabBlockly](https://github.com/pguyot/nabblockly)
 * [NabStory](https://github.com/mehdichaouch/nabstory)
+* [RPi-Monitor](https://www.tagtagtag.fr/forum/showthread.php?tid=224&pid=1424)
+* [pi-boot-script](https://github.com/mehdichaouch/pi-boot-script)
 
 ## Contribution
 
