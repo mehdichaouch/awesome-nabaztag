@@ -1,0 +1,39 @@
+name: 🚨 README Linter
+
+on:
+  push:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'README.md'
+      - 'README.fr.md'
+
+jobs:
+  delete_old_runs:
+    name: 🧹 Delete old workflow runs
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 🧹 Delete old workflow runs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh api repos/${{ github.repository }}/actions/runs \
+          --paginate -q '.workflow_runs[] | select(.status != "in_progress" and .status != "queued") | "\(.id)"' | \
+          xargs -n1 -I % gh api repos/${{ github.repository }}/actions/runs/% -X DELETE
+
+  awesome_lint:
+    name: ✅ Lint README files
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: ⬇ Checkout
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: 🇬🇧 English (README.md)
+        run: npx awesome-lint README.md
+
+      - name: 🇫🇷 French (README.fr.md)
+        run: npx awesome-lint README.fr.md
