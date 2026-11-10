@@ -22,6 +22,7 @@ Read this in other languages: [English](README.md), [French](README.fr.md).
 - [TagTagTag](https://www.tagtagtag.fr/index_eng.html) - Main page of TagTagTag project for to revival your rabbit 🐰.
 - [nabaztag.local](http://nabaztag.local/) - Page to configure your rabbit with TagTagTag.
 - [NabBlockly](http://nabaztag.local:8080) - Page to play with NabBlockly.
+- [Le Terrier](https://terrier.cyberloutre.fr/) - Free hosted server for unmodified or Naboot rabbits, with the original Violet services, radio, podcasts and spoken answers from a language model.
 
 ## Quick Search
 
@@ -58,6 +59,8 @@ Read this in other languages: [English](README.md), [French](README.fr.md).
 - [NabStory](https://github.com/mehdichaouch/nabstory)
 - [RPi-Monitor](https://www.tagtagtag.fr/forum/showthread.php?tid=224&pid=1424)
 - [pi-boot-script](https://github.com/mehdichaouch/pi-boot-script)
+- [Naboot](https://github.com/ClaraVnk/nabaztag) - Open-source firmware for the Nabaztag:tag v2 adding WPA2/WPA3, TLS 1.3 and signed over-the-air updates, with a local Home Assistant add-on and a Raspberry Pi JTAG recovery station.
+- [terrier-ha](https://github.com/ClaraVnk/terrier-ha) - Home Assistant integration, installable with HACS, exposing each rabbit's lights, ears, sleep and speech.
 
 ## Contributing
 
