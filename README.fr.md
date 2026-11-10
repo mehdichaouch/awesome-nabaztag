@@ -25,6 +25,7 @@ Lisez ceci dans d'autres langues : [Anglais](README.md), [Français](README.fr.m
 - [TagTagTag](https://www.tagtagtag.fr/) - Page principale du projet TagTagTag pour faire revivre votre lapin 🐰.
 - [nabaztag.local](http://nabaztag.local/) - Page pour configurer votre lapin avec TagTagTag.
 - [NabBlockly](http://nabaztag.local:8080) - Page pour jouer avec NabBlockly.
+- [Le Terrier](https://terrier.cyberloutre.fr/) - Serveur hébergé gratuit pour les lapins d'origine ou sous Naboot, avec les services Violet d'époque, la radio, les podcasts et des réponses à voix haute d'un modèle de langage.
 
 ## Recherche rapide
 
@@ -61,6 +62,8 @@ Lisez ceci dans d'autres langues : [Anglais](README.md), [Français](README.fr.m
 - [NabStory](https://github.com/mehdichaouch/nabstory)
 - [RPi-Monitor](https://www.tagtagtag.fr/forum/showthread.php?tid=224&pid=1424)
 - [pi-boot-script](https://github.com/mehdichaouch/pi-boot-script)
+- [Naboot](https://github.com/ClaraVnk/nabaztag) - Firmware libre pour le Nabaztag:tag v2 qui ajoute le WPA2/WPA3, le TLS 1.3 et des mises à jour signées à distance, avec un add-on Home Assistant local et une station de réparation JTAG sur Raspberry Pi.
+- [terrier-ha](https://github.com/ClaraVnk/terrier-ha) - Intégration Home Assistant, installable par HACS, qui expose les lumières, les oreilles, le sommeil et la parole de chaque lapin.
 
 ## Contribution
 
